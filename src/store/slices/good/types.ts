@@ -1,3 +1,10 @@
+type TBrand = {
+  id: number;
+  title: string;
+  sort: string;
+  code: string;
+};
+
 export type TGoodObject = {
   type: string;
   id: number;
@@ -9,6 +16,7 @@ export type TGoodObject = {
   };
   image: string;
   brand: number;
+  brandObject?: TBrand;
 };
 
 export type TSearchGoodParams = {

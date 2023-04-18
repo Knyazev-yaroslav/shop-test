@@ -1,9 +1,11 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { TGoodObject, IGoodSliceState } from "./types";
 import goods from "../../../assets/products.json";
+import brands from "../../../assets/brands.json";
+import { mergeProductsAndBrands } from "../../../utils/mergeProductsAndBrands";
 
 const initialState: IGoodSliceState = {
-  items: goods,
+  items: mergeProductsAndBrands(goods, brands),
 };
 
 const goodSlice = createSlice({
