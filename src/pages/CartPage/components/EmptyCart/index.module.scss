@@ -1,0 +1,41 @@
+.empty_cart__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15%;
+  gap: 8px;
+}
+
+.empty_cart__title{
+  font-weight: 600;
+  font-size: 22px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.empty_cart__subtitle{
+  font-weight: 400;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.empty_cart__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00b2a4;
+  width: 200px;
+  height: 36px;
+  border-radius: 15px;
+  border: 0px;
+  text-decoration: none;
+  
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}

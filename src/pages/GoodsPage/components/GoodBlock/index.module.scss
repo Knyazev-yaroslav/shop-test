@@ -1,0 +1,54 @@
+
+.good_container{
+  width: 350px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color:#00b2a424;
+  gap: 8px;
+}
+
+.good_img{
+  width: 300px;
+  height: 300px;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 22px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price{
+  font-weight: 400;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+  width: 172px;
+  height: 36px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_text{
+  font-weight: 400;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 8px;
+}
+
+.goods_amount{
+  font-weight: 400;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 8px;
+}
