@@ -20,8 +20,13 @@ const GoodsPage = () => {
           return (
             <div key={elem.code}>
               <label>
-                <input type="checkbox" />
-                <span></span>
+                <input
+                  type="checkbox"
+                  onChange={(e) => {
+                    console.log(e);
+                  }}
+                />
+                <span className={styles.checkbox}></span>
                 {elem.title}
               </label>
             </div>

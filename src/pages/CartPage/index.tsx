@@ -39,8 +39,11 @@ const CartPage = () => {
       goods: items,
       username: username,
       phone_number: phoneNumber,
-    }).then(() => setIsModalOpen(true));
-    // setIsModalOpen(true);
+    })
+      .then(() => setIsModalOpen(true))
+      .catch(() => {
+        alert("Ошибка при оформлении заказа, попробуйте позже");
+      });
   };
 
   return (

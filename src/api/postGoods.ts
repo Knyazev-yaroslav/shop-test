@@ -14,8 +14,8 @@ export const postGoods = (
   axios.request({
     baseURL: "https://app.aaccent.su/js/confirm.php",
     method: "POST",
-    headers: {
-      "Content-Type": "application/json;charset=UTF-8",
-    },
     data: data,
+    headers: {
+      "Content-Type": "text/plain;charset=UTF-8",
+    },
   });
